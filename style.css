@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Overpass:wght@300;600&family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  font-size: 16px;
+  height: 437px;
+  width: 1440px;
+  background-color: #e0e8ff;
+}
+
+#hero-img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  position: absolute;
+  margin-top: 10rem;
+  width: 450px;
+  height: 700px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.headline {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 16px;
+  color: #7280a7;
+  line-height: 25px;
+}
+
+.light-container {
+  background-color: #f5f7ff;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  padding: 1rem;
+}
+
+.change {
+  font-weight: 900;
+}
+
+.change a {
+  color: #3829e0;
+}
+
+.text-plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: auto;
+  padding-left: 1rem;
+  line-height: 25px;
+}
+
+.text-plan .Plan {
+  font-weight: 900;
+}
+
+.text-plan span {
+  font-weight: 100;
+  color: #7280a7;
+}
+
+button {
+  height: 50px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #3829e0;
+  color: aliceblue;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+}
+
+.cancel {
+  font-size: 12px;
+  font-weight: 900;
+  color: #7280a7;
+}
+
+.cancel:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+.change:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+.change:hover a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
